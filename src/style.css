@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F5F7FB;
+    font-family: "Karla", sans-serif;
+    color: #293264;
+}
+
+.quiz {
+    /* border: 1px solid red; */
+    margin: 2.5em 4em;    
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #DBDEF0;
+    margin: 1em 0;
+}
+
+.question {
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+.answers-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 500px) {
+    .answers-container {
+        flex-direction: row;
+    }
+    
+    .answer {
+        margin-bottom: 0;
+    }
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #4D5B9E;
+    border-radius: 8px;
+    padding: .7em 1em;
+    text-align: center;
+    margin-right: 1em;
+    font-size: .8rem;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.answer.selected {
+    background: #D6DBF5;
+    border-color: transparent;
+}
+
+.answer.show {
+    opacity: 0.5;
+}
+
+.answer.wrong {
+    background: #F8BCBC;
+    border-color: transparent;
+}
+
+.answer.correct {
+    background: #94D7A2;
+    border-color: transparent;
+    opacity: 1;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2em;
+    /* border: 1px red solid; */
+}
+
+.submit-btn {
+    background: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+    padding: 1em 2em;
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    cursor: pointer;
+}
+
+.submit-btn:focus {
+    outline: none;
+}
+
+.results-text {
+    font-weight: 700;
+}
+
+/* Style start page */
+.start {
+    text-align: center;   
+    margin-top: 50vh;
+    transform: translateY(-50%)
+}
+
+.start--title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2rem; 
+}
+
+.start--desc {
+    font-size: 1rem;    
+}
+
+.start--btn {
+    background: #4D5B9E;
+    border-radius: 15px;
+    color: #F5F7FB;
+    font-weight: 700;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.loading {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity: .5;
+}
+
+.warning {
+    text-align: center;
+    opacity: .7;
+    font-size: .8rem;
+    color: red;
+}
