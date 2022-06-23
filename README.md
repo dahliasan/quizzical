@@ -32,7 +32,7 @@ This is a project from the [Frontend Developer Career Path](https://scrimba.com/
 
 ## Links
 - [Solution url on Scrimba](https://scrimba.com/scrim/cvKrbDAq)
-- [Live site demo](https://fooxhd.github.io/quizzical/)
+- [Live site demo](https://fxhd1.github.io/quizzical/)
 
 # Acknowledgements
 
