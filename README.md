@@ -1,5 +1,5 @@
 
-👀 View the demo [here](https://fooxhd.github.io/quizzical/).
+👀 View the demo [here](https://fxhd1.github.io/quizzical/).
 
 # Overview
 Quizzical lets users answer random trivia questions from [Open Triva DB](https://opentdb.com/api.php).
